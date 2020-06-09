@@ -1,53 +1,87 @@
-body
-      {
-        background-color: #1B1B1B;
-        font-family: 'Ubuntu', sans-serif;
-        color: white;
-        padding: 5%;
-      }
-      img{
-        border-radius: 10%;
-        border: 5px solid black;
-      }
-      h3{
-        color: #808088;
-        font-weight: bold;
-      }
-      h2{
-        border-bottom:3px solid #808088;
-        display:inline-block;
-        margin-bottom:15px;
-      }
-      .intro{
+html, body, .side1, .side2 {
+  height: 100%;
+}
 
-      }
-      .main-div{
-        margin-left: 25%;
-        margin-right: 25%;
-      }   
-      ul.a{
-        list-style-type: square;
-      }
-      li{
-        font-size: 20px;
-        margin-top: 5px;
-      }
-      a{
-        color: #68369B;
-        text-decoration: none;
-        font-weight: bold;
-      }
-      p{
-        font-size: 20px;
-        margin-top: 5px;
-        margin-left: 25%;
-        margin-right: 25%;
-      }
-      @media screen and (max-width: 481px){
-      .main-div{
-        margin-left: 10%;
-        margin-right: 10%;
-        }
-      p{
-        margin-left: 10%;
-        margin-right: 10%;
+body {
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #ffffff;
+}
+
+.side1 {
+  width: 30%;
+}
+
+.side2 {
+  width: 70%;
+}
+
+.side1 {
+  background-color: #2F4F4F;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.side2 {
+  background-color: #ffffff;
+  margin-left: 30%;
+  overflow: auto;
+}
+
+.overview {
+  padding:15%;
+}
+
+.round {
+  border-radius: 50%
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  border-bottom:3px solid #ffffff;
+  display:inline-block;
+  margin-bottom:15px;
+}
+
+h4 {
+  border-bottom:7px solid #2F4F4F;
+  display:inline-block;
+  margin-bottom:15px;
+  font-size: 32px;
+}
+
+.main {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #000000;
+}
+
+p {
+  font-size: 24px;
+  font-family: 'Nunito Sans-Regular', sans-serif;
+  color: #2F4F4F;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+ul {
+  margin-bottom:15px;
+  font-size: 28px;
+  color: #2F4F4F;
+}
+
+li {
+  margin-left: 10%;
+  font-size: 24px;
+  font-family: 'Nunito Sans-Regular', sans-serif;
+  color: #2F4F4F;
+  font-weight: bold;
+}
