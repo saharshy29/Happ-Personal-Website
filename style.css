@@ -1,5 +1,5 @@
-html, body, .side1, .side2 {
-  height: 100%;
+html, body{
+  scroll-behavior: smooth;
 }
 
 body {
@@ -8,25 +8,28 @@ body {
   color: #ffffff;
 }
 
-.side1 {
-  width: 30%;
-}
+@media (min-width: 768px) {
+  .side1 {
+    width: 30%;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
 
-.side2 {
-  width: 70%;
+  .side2 {
+    wdith: 70%;
+    margin-left: 30%;
+    overflow: auto;
+  }
 }
 
 .side1 {
   background-color: #2F4F4F;
-  position: fixed;
-  left: 0;
-  top: 0;
+  height: auto;
 }
 
 .side2 {
   background-color: #ffffff;
-  margin-left: 30%;
-  overflow: auto;
 }
 
 .overview {
