@@ -78,10 +78,30 @@ ul {
   color: #2F4F4F;
 }
 
+a {
+  color: #0E26B1;
+}
+
+.a-green {
+  color: #2F4F4F;
+}
+
+.li-link {
+  font-size: 24px;
+  font-family: 'Nunito Sans-Regular', sans-serif;
+  color: #0E26B1;
+  font-weight: bold;
+}
+
 li {
   margin-left: 10%;
   font-size: 24px;
   font-family: 'Nunito Sans-Regular', sans-serif;
   color: #2F4F4F;
   font-weight: bold;
+}
+
+.copyright {
+  font-size: 11px;
+  color: #2F4F4F;
 }
